@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>MedLevel</title>
+</head>
+<meta name="viewport" content="width=device-width">
+<link href="medLevel.css" rel="stylesheet" type="text/css" />
+
+<body>
+  <div class = "box">
+  <h1><div id="errors"></div></h1>
+  <h1><div id="moves"></div></h1>
+  <h1><div id="matches"></div></h1>
+  </div>
+  
+  <div id="game"></div>
+  <img src ="medLevelTitle.png" alt="MedLevel" class="medLevelTitle">
+  <img src ="cloudReset.png" alt="CloudReset" class="cloudReset">
+  <img src ="bee.png" alt="Bee" class="bee">
+  <img src ="beeTrail.png" alt="BeeTrail" class="beeTrail">
+  <img src ="sun.png" alt="Sun" class="sun">
+  <!--used this resource to make the arrow image a button: https://www.quora.com/How-do-you-add-a-background-image-to-a-button-using-CSS-HTML-CSS-button-and-development--->
+  <a href="index.html"><img src="arrow.png" alt="arrow" class="arrow""></a>
+  
+  <button class="reset" onclick = "window.location.reload();">Reset Game</button>
+  <div id="countdown"></div>
+  <script src="medlevel.js"></script>
+  <script src="Game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+/*made all images on https://www.canva.com/*/
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #C1ECFD;
+}
+
+#errors {
+  font-size: 30px;
+  color: #1F628E;
+  position: fixed;
+  bottom: 450px;
+  left: 50%; 
+  transform: translateX(-50%); 
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  z-index: 1;
+}
+
+#matches {
+  font-size: 30px;
+  color: #1F628E;
+  position: fixed;
+  bottom: 450px;
+  left: 68%; 
+  transform: translateX(-50%); 
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  z-index: 1;
+}
+
+#moves {
+  font-size: 30px;
+  color: #1F628E;
+  position: fixed;
+  bottom: 450px;
+  left: 30%; 
+  transform: translateX(-50%); 
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  z-index: 1;
+}
+
+#message {
+  font-size: 80px;
+  color: #1F628E;
+  position: fixed;
+  bottom: 600px;
+  left: 50%; 
+  transform: translateX(-50%); 
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  z-index: 1;
+}
+
+.cloudReset {
+  position: absolute;
+  margin: auto;
+  width: 1400px;
+  height: 1000px;
+  padding: 10px;
+  left: 8%;
+  bottom: -50px;
+}
+
+.home {
+  position: fixed;
+  left: 30%;
+  bottom: 180px;
+  width: 200px;
+  height: 200px;
+}
+
+.replay {
+  position: fixed;
+  left: 55%;
+  bottom: 180px;
+  width: 200px;
+  height: 200px;
+}
+
+.sun {
+  position: absolute;
+  right: 0px;
+  width: 400px;
+  height: 400px;
+  top: 0px;
+  z-index: 1;
+}
+
+.bee {
+  position: fixed;
+  width: 450px;
+  height: 450px;
+  bottom: 50%;
+  z-index: -1;
+}

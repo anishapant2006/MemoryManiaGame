@@ -1,0 +1,153 @@
+/*made all images on https://www.canva.com/*/
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color:#C1ECFD;
+}
+.GameTitle {
+  position: absolute;
+  background-size: cover;
+  width: 1030px;
+  height: 630px;
+  z-index: -1;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sun {
+  position: absolute;
+  right: 0px;
+  width: 400px;
+  height: 400px;
+  top: 0px;
+}
+
+.leaf {
+  position: fixed;
+  width: 240px;
+  height: 240px;
+  z-index: 1;
+  top: 28%;
+  left: 42%;
+  border: 10px solid #ACB4BF;
+  border-radius: 12px;
+}
+
+.heart {
+  position: fixed;
+  width: 240px;
+  height: 240px;
+  z-index: 1;
+  top: 40%;
+  left: 23.5%;
+  border: 10px solid #ACB4BF;
+  border-radius: 12px;
+  /*used this resource to rotate the image: https://www.w3schools.com/cssref/css3_pr_transform.php*/
+  transform: rotate(320deg);
+}
+
+.flower {
+  position: fixed;
+  width: 240px;
+  height: 240px;
+  z-index: 1;
+  top: 40%;
+  right: 24%;
+  border: 10px solid #ACB4BF;
+  border-radius: 12px;
+  transform: rotate(40deg);
+}
+
+.cloud {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  right: 0px;
+  bottom: 10px;
+  z-index: -5;
+}
+
+.cloud2 {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  left: -10px;
+  top: -10px;
+  z-index: 0;
+}
+
+.bee {
+  position: fixed;
+  width: 450px;
+  height: 450px;
+  bottom: -15%;
+  z-index: -1;
+}
+
+.buttonEasy {
+  background-color: #1F628E;
+  border: none;
+  color: white;
+  position: fixed;
+  left: 30%;
+  bottom: 15%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  border-radius: 12px;
+  z-index:1;
+}
+.buttonEasy:hover {
+  background-color: white;
+  color: black;
+}
+
+.buttonMed {
+  background-color: #1F628E;
+  border: none;
+  color: white;
+  position: fixed;
+  left: 44%;
+  bottom: 15%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  border-radius: 12px;
+  z-index:1;
+}
+
+.buttonMed:hover {
+  background-color: white;
+  color: black;
+}
+
+.buttonHard {
+  background-color: #1F628E;
+  border: none;
+  color: white;
+  position: fixed;
+  right: 30%;
+  bottom: 15%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  border-radius: 12px;
+  z-index:1;
+}
+
+.buttonHard:hover {
+  background-color: white;
+  color: black;
+}
+
